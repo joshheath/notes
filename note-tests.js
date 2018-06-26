@@ -4,5 +4,5 @@
     var note = new Note(text);
     assert.isTrue(note.showNote() === text)
   };
-  testNoteDefaultsToFavouriteLanguage()
+  testNoteDefaultsToFavouriteLanguage();
 })(this);
